@@ -1,7 +1,7 @@
 # Weather2MQTT
 Simple ESP8266 project to read weather station sensor data from a DIYElectronics 9KITWEATHER / DFRobot SEN0186 weather station kit and publish this data over MQTT to be read by your host of choice e.g. Home Assistant
 
-![Station Image](iamges/station.jpg)
+![Station Image](images/station.jpg)
 
 # Instructions: 
 - Clone this repo, rename src/config-sample.h to src/config.h 
@@ -14,7 +14,7 @@ Simple ESP8266 project to read weather station sensor data from a DIYElectronics
 - (optional) print the case in the 3D Model folder to house the module such that you can use the unit outside your electronics container and get accurate readings of the environment. 
 - Connect module 5V and GND to 5V and GND on the Wemos D1.
 
-![Electronics Image](iamges/electronics.jpg)
+![Electronics Image](images/electronics.jpg)
 
 - If you are using Home Assistant, you can find some example setup in  HomeAssistantConfigYAMLeg.txt
 
