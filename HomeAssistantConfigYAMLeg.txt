@@ -1,0 +1,40 @@
+sensor:
+    - platform: mqtt 
+      state_topic: "home/outside/temperature" 
+      name: "Outside Temperature" 
+      unit_of_measurement: "°C" 
+ 
+    - platform: mqtt 
+      state_topic: "home/outside/humidity" 
+      name: "Outside Humidity" 
+      unit_of_measurement: "%" 
+ 
+    - platform: mqtt 
+      state_topic: "home/outside/pressure" 
+      name: "Outside Pressure" 
+      unit_of_measurement: "kPa" 
+      
+    - platform: mqtt 
+      state_topic: "home/outside/windspdavg1m" 
+      name: "Wind Speed Average (1m)" 
+      unit_of_measurement: "m/s" 
+      
+    - platform: mqtt 
+      state_topic: "home/outside/windspdmax5m" 
+      name: "Wind Speed Max (5m)" 
+      unit_of_measurement: "m/s"
+
+    - platform: mqtt 
+      state_topic: "home/outside/winddirection" 
+      name: "Wind Direction" 
+      unit_of_measurement: ""
+      
+    - platform: mqtt 
+      state_topic: "home/outside/rain1hr" 
+      name: "Rain Fall 1hr" 
+      unit_of_measurement: "mm"
+      
+    - platform: mqtt 
+      state_topic: "home/outside/rain24hr" 
+      name: "Rain Fall 24hr" 
+      unit_of_measurement: "mm"
